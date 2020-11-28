@@ -7,7 +7,7 @@ class Bin {
 		this.binHeight=213;
 		this.thickness=20;
 		
-		this.image=loadImage("../images/dustbingreen.png")
+		this.image=loadImage("dustbingreen.png")
 		this.bottomBody= Bodies.rectangle(this.x, this.y, this.binWidth, this.thickness, {isStatic:true})
 		this.leftBody= Bodies.rectangle(this.x-this.binWidth/2, this.y-this.binHeight/2, this.thickness, this.binHeight, {isStatic:true})
 		this.rightBody=Bodies.rectangle(this.x+this.binWidth/2, this.y-this.binHeight/2, this.thickness, this.binHeight, {isStatic:true})
